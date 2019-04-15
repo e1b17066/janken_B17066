@@ -1,13 +1,13 @@
 Board board;
 Game game;
-void setup(){
-  surface.setSize(450,300);
+void setup() {
+  surface.setSize(450, 300);
   board = new Board();
   game = new Game();
   background(0);
 }
 
-void draw(){
+void draw() {
   board.updateSelectArea();
   board.updateCommentArea("Choose Your Hand");
 }
