@@ -31,3 +31,4 @@ String desideCpuHand() {
  else if (cpuHandNum == 1) return "Choki";
  else return "Pa";
 }
+}
